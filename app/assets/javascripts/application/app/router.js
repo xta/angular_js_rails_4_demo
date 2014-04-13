@@ -1,5 +1,3 @@
-this.restauranteur = angular.module('restauranteur', []);
-
 this.restauranteur.config([
   '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider.when('/restaurants', {
