@@ -11,7 +11,7 @@
       controller: 'RestaurantShowCtrl'
     }).
     otherwise({
-      templateUrl: '../templates/home.html',
-      controller: 'HomeCtrl'
+      templateUrl: '../templates/restaurants/index.html',
+      controller: 'RestaurantIndexCtrl'
     })
 ])
