@@ -1,16 +1,16 @@
-
-
 this.restauranteur.config([
   '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
-    $routeProvider.when('/restaurants', {
+    $routeProvider.when('/', {
       templateUrl: '<%= asset_path('restaurants/index.html') %>',
       controller: 'RestaurantIndexCtrl'
     }).when('/restaurants/:id', {
       templateUrl: '<%= asset_path('restaurants/show.html') %>',
       controller: 'RestaurantShowCtrl'
+    }).when('/restaurants', {
+      redirectTo: '/'
     }).otherwise( {
-      redirectTo: '/restaurants'
+      redirectTo: '/'
     });
 
     $locationProvider.html5Mode(true);
