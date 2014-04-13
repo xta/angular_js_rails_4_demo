@@ -6,17 +6,13 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    preprocessors: {
-      '**/*.coffee': 'coffee'
-    },
-
     files: [
       'app/assets/javascripts/angular.js',
       'app/assets/javascripts/angular-mocks.js',
-      'app/assets/javascripts/main.js.coffee',
-      'app/assets/javascripts/angular/controllers/RestaurantIndexCtrl.js.coffee',
+      'app/assets/javascripts/main.js',
+      'app/assets/javascripts/angular/controllers/RestaurantIndexCtrl.js',
       'app/assets/javascripts/angular/*',
-      'spec/javascripts/*_spec.js.coffee'
+      'spec/javascripts/*_spec.js'
     ]
   });
 };
