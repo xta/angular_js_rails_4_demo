@@ -1,2 +1,2 @@
-//= require ./vendor
+//= require ./vendor/index
 //= require ./application/index
