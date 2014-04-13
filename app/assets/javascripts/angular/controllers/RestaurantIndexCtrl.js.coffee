@@ -3,4 +3,8 @@
   $http.get('./restaurants.json').success((data) ->
     $scope.restaurants = data
   )
+
+  # Add the following lines
+  $scope.viewRestaurant = (id) ->
+    $location.url "/restaurants/#{id}"
 ]
