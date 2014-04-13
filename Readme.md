@@ -1,6 +1,11 @@
 # Restauranteur
 
-[Rails 4 + AngularJS demo](https://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails)
+[Rails 4](http://rubyonrails.org/) + [AngularJS](http://angularjs.org/) + [PostgreSQL](http://www.postgresql.org/) demo app
+
+Special thanks to many online resources:
+
+* [honeybadger](https://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails)
+* [karlfreeman](https://github.com/karlfreeman/angular-devise)
 
 ## Setup
 
